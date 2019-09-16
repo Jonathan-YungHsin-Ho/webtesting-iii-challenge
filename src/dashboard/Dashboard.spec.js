@@ -5,6 +5,7 @@ import { render } from '@testing-library/react';
 import Controls from '../controls/Controls';
 import Display from '../display/Display';
 
+// shows the controls and display
 test('Dashboard shows controls', () => {
   render(<Controls />);
 });
